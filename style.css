@@ -13,6 +13,11 @@
     outline: 0;
 }
 
+ol {
+    list-style: none;
+    padding: 0;
+}
+
 body {
     background-color: var(--primary-color);
     margin: 0;
@@ -31,4 +36,32 @@ body {
     line-height: 1.9em;
     border-radius: 20px;
     box-shadow: 10px 10px 1px 1px var(--darkness-color);
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resultado {
+    width: 50%;
+}
+
+.idades {
+    width: 50%;
+}
+
+form input {
+    height: 30px;
+    width: 100%;
+
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--background-text);
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1.5em;
 }
